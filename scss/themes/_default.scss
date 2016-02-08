@@ -1,5 +1,6 @@
 @import '../colors';
 
 @mixin frost-theme-default {
-  $frost-button-primary: $frost-color-blue-1 !global;
+  $frost-button-primary: $frost-color-white !global;
+  $frost-button-primary-background: $frost-color-blue-1 !global;
 }
