@@ -41,7 +41,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    baseURL: '/ember-frost-theme',
   }
 
   return ENV;
