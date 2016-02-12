@@ -1,6 +1,20 @@
 @import '../colors';
 
 @mixin frost-theme-default {
+  // global
+  $frost-input: $frost-color-grey-1 !global;
+  $frost-input-border: $frost-color-lgrey-2 !global;
+  $frost-selection: $frost-color-blue-1 !global;
+  
+  // button
   $frost-button-primary: $frost-color-white !global;
   $frost-button-primary-background: $frost-color-blue-1 !global;
+  $frost-button-tertiary: $frost-color-blue-1 !global;
+  
+  // select
+  $frost-select-container-background: $frost-color-white !global;
+  $frost-select-container-shadow: $frost-color-grey-5 !global;
+  $frost-select-footer-divider: $frost-color-blue-1 !global;
+  $frost-select-indicator: $frost-color-grey-5 !global;
+  $frost-select-item-divider: $frost-color-lgrey-1 !global;
 }
