@@ -20,11 +20,11 @@
   $frost-color-button-secondary-bg: $frost-color-white !global;
   $frost-color-button-secondary-border: $frost-color-blue-1 !global;
   $frost-color-button-secondary-active: $frost-color-blue-3 !global;
-  $frost-color-button-secondary-active-bg: opacify($frost-color-blue-1, 0.1) !global;
+  $frost-color-button-secondary-active-bg: rgba($frost-color-blue-1, 0.1) !global;
 
   $frost-color-button-tertiary: $frost-color-blue-1 !global;
   $frost-color-button-tertiary-bg: inherit !global;
-  $frost-color-button-tertiary-hover-bg: opacify($frost-color-blue-1, 0.1) !global;
+  $frost-color-button-tertiary-hover-bg: rgba($frost-color-blue-1, 0.1) !global;
   $frost-color-button-tertiary-active: $frost-color-blue-3 !global;
 
   // Select
