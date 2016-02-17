@@ -22,12 +22,10 @@ Modify your `ember-cli-build.js` to include:
 
 
 ```javascript
-const frostTheme = require('frostTheme')
-
 const app = new EmberAddon(defaults, {
     sassOptions: {
       includePaths: [
-        frostTheme.includePaths
+        'node_modules/ember-frost-theme/scss'
       ]
     }
   })
@@ -38,7 +36,6 @@ Modify your `app.scss` to include
 
 ```sass
 @import 'frost-theme';
-@include frost-theme-default; // Or whatever theme you would prefer
 ```
 
 You now have access to the theme variables

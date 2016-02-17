@@ -18,7 +18,8 @@
   },
   "author": "Steven Glanzer (https://github.com/sglanzer)",
   "contributors": [
-    "Adam Meadows (https://github.com/job13er)"
+    "Adam Meadows (https://github.com/job13er)",
+    "Matthew Dahl (https://github.com/sandersky)"
   ],
   "license": "MIT",
   "devDependencies": {
