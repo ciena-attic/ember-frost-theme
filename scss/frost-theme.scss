@@ -18,12 +18,14 @@ $frost-color-selection: $frost-color-blue-1 !global;
 $frost-color-button-primary: $frost-color-white !global;
 $frost-color-button-primary-bg: $frost-color-blue-1 !global;
 $frost-color-button-primary-hover-bg: $frost-color-blue-3 !global;
+$frost-color-button-primary-active: $frost-color-blue-4 !global;
 
 $frost-color-button-secondary: $frost-color-blue-1 !global;
 $frost-color-button-secondary-bg: $frost-color-white !global;
 $frost-color-button-secondary-border: $frost-color-blue-1 !global;
 $frost-color-button-secondary-active: $frost-color-blue-3 !global;
 $frost-color-button-secondary-active-bg: rgba($frost-color-blue-1, 0.1) !global;
+$frost-color-button-secondary-hover-bg: rgba($frost-color-blue-1, 0.1) !global;
 
 $frost-color-button-tertiary: $frost-color-blue-1 !global;
 $frost-color-button-tertiary-bg: inherit !global;
