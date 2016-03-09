@@ -1,7 +1,8 @@
 {
   "name": "ember-frost-theme",
-  "version": "1.0.2",
+  "version": "1.2.1",
   "description": "The default blueprint for ember-cli addons.",
+  "frostGuideDirectory": "design-conventions/colors",
   "directories": {
     "doc": "doc",
     "test": "tests"

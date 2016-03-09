@@ -25,7 +25,7 @@ describe('Acceptance: Application', function () {
     visit('/')
 
     andThen(function () {
-      expect(currentPath()).to.equal('index')
+      expect(currentPath()).to.equal('demo')
     })
   })
 })
