@@ -1,7 +1,8 @@
 {
   "name": "ember-frost-theme",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "The default blueprint for ember-cli addons.",
+  "frostGuideDirectory": "design-conventions/colors",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -41,7 +42,7 @@
     "ember-disable-prototype-extensions": "^1.0.0",
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
-    "ember-try": "~0.0.8",
+    "ember-try": "^0.2.0",
     "eslint": "^1.10.3",
     "eslint-config-frost-standard": "^0.2.4",
     "sass-lint": "^1.5.0"
