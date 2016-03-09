@@ -6,7 +6,7 @@ const Router = Ember.Router.extend({
 })
 
 Router.map(function () {
-  this.route('demo', {path: '/'}, function() {
+  this.route('demo', {path: '/'}, function () {
     this.route('palette', { path: '/palette' })
     this.route('typography', { path: '/typography' })
   })

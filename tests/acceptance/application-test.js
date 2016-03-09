@@ -28,7 +28,6 @@ describe('Acceptance: Application', function () {
       expect(currentPath()).to.equal('demo.index')
     })
   })
-  
   it('can visit /palette', function () {
     visit('/palette')
 
@@ -36,7 +35,6 @@ describe('Acceptance: Application', function () {
       expect(currentPath()).to.equal('demo.palette')
     })
   })
-  
   it('can visit /typography', function () {
     visit('/typography')
 
