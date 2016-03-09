@@ -165,6 +165,17 @@
   background-color: $frost-color-lgrey-5;
 }
 
+//Status
+.positive {
+  background-color: $frost-color-positive;
+}
+.neutral {
+  background-color: $frost-color-neutral
+}
+.danger {
+  background-color: $frost-color-danger;
+}
+
 // Font Family
 .font-family-1 {
   font-family: Roboto;
