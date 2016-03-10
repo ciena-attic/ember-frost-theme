@@ -25,7 +25,21 @@ describe('Acceptance: Application', function () {
     visit('/')
 
     andThen(function () {
-      expect(currentPath()).to.equal('index')
+      expect(currentPath()).to.equal('demo.index')
+    })
+  })
+  it('can visit /palette', function () {
+    visit('/palette')
+
+    andThen(function () {
+      expect(currentPath()).to.equal('demo.palette')
+    })
+  })
+  it('can visit /typography', function () {
+    visit('/typography')
+
+    andThen(function () {
+      expect(currentPath()).to.equal('demo.typography')
     })
   })
 })
