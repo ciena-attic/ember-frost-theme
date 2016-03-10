@@ -2,7 +2,10 @@
   "name": "ember-frost-theme",
   "version": "1.2.2",
   "description": "The default blueprint for ember-cli addons.",
-  "frostGuideDirectory": "design-conventions/colors",
+  "frostGuideDirectory": [
+    {"palette": "design-conventions/colors"},
+    {"typography": "design-conventions/typography"}
+  ],
   "directories": {
     "doc": "doc",
     "test": "tests"
