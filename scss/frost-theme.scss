@@ -10,8 +10,12 @@
 // ================================================================
 
 // Global
-$frost-color-input: $frost-color-grey-1 !global;
-$frost-color-input-border: $frost-color-lgrey-2 !global;
+$frost-color-input: $frost-color-grey-2 !global;
+$frost-color-input-border: $frost-color-grey-6 !global;
+$frost-color-input-error-border: $frost-color-danger !global;
+$frost-color-input-focus-border: $frost-color-blue-1 !global;
+$frost-color-input-disabled-border: $frost-color-lgrey-1 !global;
+$frost-color-input-disabled-bg: $frost-color-lgrey-3 !global;
 $frost-color-selection: $frost-color-blue-1 !global;
 $frost-color-button-focus-shadow: rgba($frost-color-blue-1, 0.75) !global;
 
