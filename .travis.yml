@@ -32,6 +32,10 @@ before_install:
 install:
 - npm install
 - bower install
+before_script:
+- "export DISPLAY=:99.0"
+- "sh -e /etc/init.d/xvfb start"
+- sleep 3
 script:
 - npm run lint
 - ember try:one $EMBER_TRY_SCENARIO --- ember test
