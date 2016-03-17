@@ -2,7 +2,7 @@
 import Ember from 'ember'
 
 function hex (x) {
-  return (`0${parseInt(x).toString(16).slice(-2)}`)
+  return parseInt(x).toString(16).slice(-2)
 }
 
 function rgb2hex (rgb) {
