@@ -34,11 +34,8 @@ $frost-color-button-secondary-hover-bg: rgba($frost-color-blue-1, 0.1) !global;
 
 $frost-color-button-tertiary: $frost-color-blue-1 !global;
 $frost-color-button-tertiary-bg: inherit !global;
-$frost-color-button-tertiary-hover-bg: rgba($frost-color-blue-1, 0.1) !global;
+$frost-color-button-tertiary-hover-bg: rgba($frost-color-blue-1, 0.05) !global;
 $frost-color-button-tertiary-active: $frost-color-blue-3 !global;
-
-// Buttons - design
-$frost-color-button-tab-hover-bg: rgba($frost-color-blue-1, 0.05) !global;
 
 // Select
 $frost-color-select-container-background: $frost-color-white !global;
